@@ -1,17 +1,17 @@
-export const QUIZ_QUESTIONS = [
+var QUIZ_QUESTIONS = [
   {
     id: 'vibe',
     question: "What's your style vibe?",
     subtitle: 'Pick the aesthetic that feels most you right now',
     multi: false,
     options: [
-      { icon:'🤍', label:'Clean Girl',    desc:'minimal, effortless, glossy'   },
-      { icon:'🎀', label:'Coquette',      desc:'soft, feminine, bow-coded'      },
-      { icon:'🌊', label:'Casual/Beachy',  desc:'breezy, warm, sun-kissed'       },
-      { icon:'✨', label:'Y2K Revival',   desc:'bold, nostalgic, fun'           },
-      { icon:'🖤', label:'Dark Feminine', desc:'edgy, mysterious, sleek'        },
-      { icon:'🍂', label:'Classy',  desc:'timeless, refined, neutral'     },
-    ],
+      { icon: '🤍', label: 'Clean Girl',    desc: 'minimal, effortless, glossy'  },
+      { icon: '🎀', label: 'Coquette',      desc: 'soft, feminine, bow-coded'     },
+      { icon: '🌊', label: 'Coastal Chic',  desc: 'breezy, warm, sun-kissed'      },
+      { icon: '✨', label: 'Y2K Revival',   desc: 'bold, nostalgic, fun'          },
+      { icon: '🖤', label: 'Dark Feminine', desc: 'edgy, mysterious, sleek'       },
+      { icon: '🍂', label: 'Quiet Luxury',  desc: 'timeless, refined, neutral'    }
+    ]
   },
   {
     id: 'bodyShape',
@@ -19,12 +19,12 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'Helps us suggest the most flattering silhouettes',
     multi: false,
     options: [
-      { icon:'⌛', label:'Hourglass',         desc:'balanced bust & hips'  },
-      { icon:'🍐', label:'Pear',              desc:'wider hips & thighs'   },
-      { icon:'🍎', label:'Apple',             desc:'fuller midsection'      },
-      { icon:'📏', label:'Rectangle',         desc:'similar proportions'    },
-      { icon:'🔺', label:'Inverted Triangle', desc:'broader shoulders'      },
-    ],
+      { icon: '⌛', label: 'Hourglass',           desc: 'balanced bust and hips' },
+      { icon: '🍐', label: 'Pear',                desc: 'wider hips and thighs'  },
+      { icon: '🍎', label: 'Apple',               desc: 'fuller midsection'      },
+      { icon: '📏', label: 'Rectangle',           desc: 'similar proportions'    },
+      { icon: '🔺', label: 'Inverted Triangle',   desc: 'broader shoulders'      }
+    ]
   },
   {
     id: 'fitPreference',
@@ -32,11 +32,11 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'Select everything that applies',
     multi: true,
     options: [
-      { icon:'🫧', label:'Oversized & relaxed'   },
-      { icon:'✂️', label:'Fitted & tailored'      },
-      { icon:'☁️', label:'Flowy & draped'         },
-      { icon:'💪', label:'Bodycon & form-fitting' },
-    ],
+      { icon: '🫧', label: 'Oversized and relaxed'   },
+      { icon: '✂️', label: 'Fitted and tailored'      },
+      { icon: '☁️', label: 'Flowy and draped'         },
+      { icon: '💪', label: 'Bodycon and form-fitting' }
+    ]
   },
   {
     id: 'budget',
@@ -44,11 +44,11 @@ export const QUIZ_QUESTIONS = [
     subtitle: "We'll surface deals that match your range",
     multi: false,
     options: [
-      { icon:'🪙', label:'Under $30' },
-      { icon:'💳', label:'$30–$80'   },
-      { icon:'💎', label:'$80–$200'  },
-      { icon:'👑', label:'$200+'     },
-    ],
+      { icon: '🪙', label: 'Under $30' },
+      { icon: '💳', label: '$30-$80'   },
+      { icon: '💎', label: '$80-$200'  },
+      { icon: '👑', label: '$200+'     }
+    ]
   },
   {
     id: 'climate',
@@ -56,11 +56,11 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'So we can tailor fabrics and layering for you',
     multi: false,
     options: [
-      { icon:'☀️', label:'Hot & sunny all year' },
-      { icon:'🌤️', label:'Warm & mild'          },
-      { icon:'🍂', label:'Four distinct seasons' },
-      { icon:'❄️', label:'Cold & snowy winters' },
-    ],
+      { icon: '☀️', label: 'Hot and sunny all year' },
+      { icon: '🌤️', label: 'Warm and mild'          },
+      { icon: '🍂', label: 'Four distinct seasons'   },
+      { icon: '❄️', label: 'Cold and snowy winters' }
+    ]
   },
   {
     id: 'occasion',
@@ -68,12 +68,12 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'Select all that apply',
     multi: true,
     options: [
-      { icon:'📚', label:'School / uni'         },
-      { icon:'💼', label:'Work / internship'    },
-      { icon:'🎉', label:'Going out & events'   },
-      { icon:'☕', label:'Casual daily errands' },
-      { icon:'🏋️', label:'Active & gym'        },
-    ],
+      { icon: '📚', label: 'School or uni'         },
+      { icon: '💼', label: 'Work or internship'    },
+      { icon: '🎉', label: 'Going out and events'  },
+      { icon: '☕', label: 'Casual daily errands'  },
+      { icon: '🏋️', label: 'Active and gym'       }
+    ]
   },
   {
     id: 'hairType',
@@ -81,12 +81,12 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'For accessory and styling suggestions',
     multi: false,
     options: [
-      { icon:'〰️', label:'Straight'      },
-      { icon:'🌊', label:'Wavy'          },
-      { icon:'🌀', label:'Curly'         },
-      { icon:'🌸', label:'Coily / 4C'   },
-      { icon:'✂️', label:'Short / buzzed' },
-    ],
+      { icon: '〰️', label: 'Straight'       },
+      { icon: '🌊', label: 'Wavy'           },
+      { icon: '🌀', label: 'Curly'          },
+      { icon: '🌸', label: 'Coily or 4C'   },
+      { icon: '✂️', label: 'Short or buzzed' }
+    ]
   },
   {
     id: 'skinTone',
@@ -94,12 +94,12 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'For colour palettes that complement you',
     multi: false,
     options: [
-      { icon:'🤍', label:'Fair / Porcelain'    },
-      { icon:'🌸', label:'Light / Peachy'      },
-      { icon:'☀️', label:'Medium / Warm Olive' },
-      { icon:'🍯', label:'Golden / Tan'        },
-      { icon:'🌰', label:'Deep / Rich'         },
-    ],
+      { icon: '🤍', label: 'Fair or Porcelain'    },
+      { icon: '🌸', label: 'Light or Peachy'      },
+      { icon: '☀️', label: 'Medium or Warm Olive' },
+      { icon: '🍯', label: 'Golden or Tan'        },
+      { icon: '🌰', label: 'Deep or Rich'         }
+    ]
   },
   {
     id: 'colorPalette',
@@ -107,13 +107,13 @@ export const QUIZ_QUESTIONS = [
     subtitle: "Pick everything you're naturally drawn to",
     multi: true,
     options: [
-      { icon:'🤍', label:'Neutrals & beige'  },
-      { icon:'🩷', label:'Pinks & blush'      },
-      { icon:'🖤', label:'Black & monochrome' },
-      { icon:'💚', label:'Greens & earthy'   },
-      { icon:'💙', label:'Blues & denim'     },
-      { icon:'🤎', label:'Browns & camel'    },
-    ],
+      { icon: '🤍', label: 'Neutrals and beige'  },
+      { icon: '🩷', label: 'Pinks and blush'      },
+      { icon: '🖤', label: 'Black and monochrome' },
+      { icon: '💚', label: 'Greens and earthy'   },
+      { icon: '💙', label: 'Blues and denim'     },
+      { icon: '🤎', label: 'Browns and camel'    }
+    ]
   },
   {
     id: 'size',
@@ -121,21 +121,23 @@ export const QUIZ_QUESTIONS = [
     subtitle: 'Every result will be filtered and sized perfectly for you',
     multi: false,
     options: [
-      { icon:'', label:'XS  /  US 0–2'  },
-      { icon:'', label:'S   /  US 4–6'  },
-      { icon:'', label:'M   /  US 8–10' },
-      { icon:'', label:'L   /  US 12–14'},
-      { icon:'', label:'XL  /  US 16–18'},
-      { icon:'', label:'XXL /  US 20+'  },
-    ],
-  },
+      { icon: '', label: 'XS  /  US 0-2'  },
+      { icon: '', label: 'S   /  US 4-6'  },
+      { icon: '', label: 'M   /  US 8-10' },
+      { icon: '', label: 'L   /  US 12-14'},
+      { icon: '', label: 'XL  /  US 16-18'},
+      { icon: '', label: 'XXL /  US 20+'  }
+    ]
+  }
 ];
 
-export const AVATAR_RECS = [
-  { emoji:'🤍', label:'Linen Co-ord'     },
-  { emoji:'🎀', label:'Bow-detail Top'   },
-  { emoji:'🧸', label:'Knit Mini Dress'  },
-  { emoji:'👟', label:'Ballet Flats'     },
-  { emoji:'🌿', label:'Satin Maxi Skirt' },
-  { emoji:'✨', label:'Sequin Cami'      },
+var AVATAR_RECS = [
+  { emoji: '🤍', label: 'Linen Co-ord'     },
+  { emoji: '🎀', label: 'Bow-detail Top'   },
+  { emoji: '🧸', label: 'Knit Mini Dress'  },
+  { emoji: '👟', label: 'Ballet Flats'     },
+  { emoji: '🌿', label: 'Satin Maxi Skirt' },
+  { emoji: '✨', label: 'Sequin Cami'      }
 ];
+
+export { QUIZ_QUESTIONS, AVATAR_RECS };
