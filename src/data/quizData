@@ -7,10 +7,11 @@ var QUIZ_QUESTIONS = [
     options: [
       { icon: '🤍', label: 'Clean Girl',    desc: 'minimal, effortless, glossy'  },
       { icon: '🎀', label: 'Coquette',      desc: 'soft, feminine, bow-coded'     },
-      { icon: '🌊', label: 'Coastal Chic',  desc: 'breezy, warm, sun-kissed'      },
-      { icon: '✨', label: 'Y2K Revival',   desc: 'bold, nostalgic, fun'          },
+      { icon: '🌊', label: 'Beachy',  desc: 'breezy, warm, sun-kissed'      },
+      { icon: '✨', label: 'Y2K',   desc: 'bold, nostalgic, fun'          },
       { icon: '🖤', label: 'Dark Feminine', desc: 'edgy, mysterious, sleek'       },
-      { icon: '🍂', label: 'Quiet Luxury',  desc: 'timeless, refined, neutral'    }
+      { icon: '🌆', label: 'Baggy Streetwear', desc: 'edgy, mysterious, sleek'       },
+      { icon: '☕', label: 'Elegant Minimalist',  desc: 'timeless, refined, neutral'    }
     ]
   },
   {
